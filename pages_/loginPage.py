@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 from time import sleep
 
+
 class LoginPage():
     def __init__(self, driver: webdriver.Chrome):
         self.driver = driver

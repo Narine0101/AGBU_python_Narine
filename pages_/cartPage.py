@@ -8,6 +8,7 @@ class CartPage():
     def delete_firstProduct_from_cart(self):
 
         firstProductDeleteButtonElement = self.driver.find_element(By.XPATH, "(//input[@value='Delete'])[1]")
+
         firstProductDeleteButtonElement.click()
 
 
